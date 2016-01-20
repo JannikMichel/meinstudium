@@ -1,0 +1,129 @@
+.nav a {
+	color: #5a5a5a;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 14px 10px;
+	text-transform: uppercase;
+}
+
+.nav li {
+	display: inline;
+}
+
+.jumbotron {
+	background-image:
+		url('http://www.schienenjobs.de/wp-content/uploads/2014/11/IMG_9121_klein.jpg');
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron .container {
+	position: relative;
+	top: 50px;
+}
+
+.jumbotron h1 {
+	color: #fff;
+	font-size: 48px;
+	font-family: 'Shift', sans-serif;
+	font-weight: bold;
+}
+
+.jumbotron p {
+	font-size: 20px;
+	color: #fff;
+}
+
+.learn-more {
+	background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+	font-family: 'Shift', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.learn-more a {
+	color: #00b0ff;
+}
+
+.neighborhood-guides {
+	background-color: #efefef;
+	border-bottom: 1px solid #dbdbdb;
+}
+
+.neighborhood-guides h2 {
+	color: #393c3d;
+	font-size: 24px;
+}
+
+.neighborhood-guides p {
+	font-size: 15px;
+	margin-bottom: 13px;
+}
+
+.thumb {
+	width: 300px;
+	heigth: 300px;
+}
+
+#wikidiv {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#dm {
+	background-color: yellow;
+}
+
+#gdi {
+	background-color: red;
+	color: #fff;
+}
+
+#ntg {
+	background-color: blue;
+	color: #fff;
+}
+
+#oop {
+	background-color: orange;
+}
+
+#rna {
+	background-color: green;
+	color: #fff;
+}
+
+#china {
+	background-color: red;
+	color: #fff;
+}
+
+#kontrast * {
+	color: #000;
+}
+
+#kontrast1 {
+	color: #fff;
+}
+
+#jumbowiki {
+	background-image:
+		url('http://thenextweb.com/wp-content/blogs.dir/1/files/2014/12/Wikipedia.jpg');
+	height: 600px;
+}
+
+.centered {
+	text-allign: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.panel panel-default {
+	width: 50%;
+	left: 25%;
+}
