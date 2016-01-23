@@ -127,3 +127,7 @@
 	width: 50%;
 	left: 25%;
 }
+#resizable {
+	height:250px;
+	border: 1px solid gray;
+}

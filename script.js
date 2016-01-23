@@ -1,4 +1,3 @@
-
 var all = function() {
 	var xmlhttp = new XMLHttpRequest();
 	var url = "https://arsnova.eu/api/statistics/";
@@ -14,23 +13,31 @@ var all = function() {
 	xmlhttp.send();
 
 	function myFunction(arr) {
-		var out = "";
-		$(".removable").remove();
+		var i = 0;
+		
 		for ( var key in arr) {
-			var lol = $("<p>");
-			var span = $("<p>");
-			span.addClass("badge");
-			span.text(arr[key]);
-			lol.addClass("removable");
-			lol.text(key);
-			lol.append(span);
-			lol.insertAfter("#id01");
+			var options1 = {
+				title : {
+					text : key
+				},
+				animationEnabled : true,
+				data : [ {
+					type : "column",
+					dataPoints : [ {
+						y : arr[key]
+					} ]
+				} ]
+			};
+			$("#chartContainer"+i).CanvasJSChart(options1);
+			$("#chartContainer"+i).CanvasJSChart().render();
+			i++;
 		}
+
 	}
 	;
 };
 
-$(document).ready(function(){
+$(document).ready(function() {
 	all();
 	var interval = setInterval(function() {
 		all();
